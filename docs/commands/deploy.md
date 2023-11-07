@@ -30,7 +30,7 @@ If you're updating the code in a function, you don't need to pass this flag agai
 
 ## User Profile
 
-You can run this command with a different user profile using the `-p` or `--profile` flags. The minimum policy document is below:
+If you want to use a different AWS user other than your default profile you can pass it via the `-p` or `--profile` flags. To create a new profile, you can use the `aws configure --profile <profilename>` command. The configured user must have at minimum the following policy document:
 
 ```json
 {
